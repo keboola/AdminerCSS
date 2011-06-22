@@ -110,9 +110,6 @@ tr:hover td, tr:hover th {
 form {
 	margin: 0;
 }
-form#form { 
-	overflow: hidden;
-}
 
 fieldset {
 	float: left;
@@ -343,14 +340,14 @@ h3 {
 	z-index: 3;
 	width: 230px;
 	min-height: 100%;
-	margin: 0;
+	margin: 50px 0 0;
 	padding: 0 10px;
 	font-size: 90%;
 }
 
 h1 {
 	font-size: 160%;
-	margin: 50px 0 1em;
+	margin: 0 0 1em;
 	padding: 0;
 	text-shadow: rgba(255,255,255,1) 0 1px 0px;
 	border: none;
