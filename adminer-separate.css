@@ -110,6 +110,9 @@ tr:hover td, tr:hover th {
 form {
 	margin: 0;
 }
+form#form {
+	overflow:  visible;
+}
 
 fieldset {
 	float: left;
@@ -152,7 +155,7 @@ textarea {
 select {
 	font-size: .9em;
 	height: 1.7em;
-	padding-top: 2px;
+	padding-top: 0px;
 	border: 1px #BBB solid;
 }
 td select {
@@ -311,6 +314,11 @@ h3 {
 	font-weight: 400;
 	font-size: 130%;
 }
+
+#content p {
+	clear: both;
+}
+
 #schema {
 	margin: 1.5em 0 0 220px;
 	position: relative;
